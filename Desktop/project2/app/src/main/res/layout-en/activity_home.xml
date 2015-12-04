@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/background">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:testAppearence="?android:attr/testAppearanceLarge"
+            android:text="NappyZap"
+            android:id="@+id/textView"
+            android:textSize="40dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="120"
+            android:layout_height="50"
+            android:text="Login"
+            android:textSize="30dp"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:id="@+id/button1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="220dp"
+            android:background="#FAF0E6"
+            />
+        <Button
+            android:layout_width="120"
+            android:layout_height="50"
+            android:text="Register"
+            android:textSize="30dp"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="#FAF0E6"
+        />
+</LinearLayout>
