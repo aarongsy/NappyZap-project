@@ -1,1 +1,2 @@
-# COMP204P
+# NappyZap project
+#by aarongsy
